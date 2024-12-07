@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    /* margin: px 0px; */
+}
+
+.main {
+    height: 500px;
+    color: whitesmoke;
+    width: 500px;
+}
+
+.logo {
+    height: 500px;
+    width: 500px;
+    background: #292826;
+}
+
+img {
+    margin-top: 60px;
+    height: 300px;
+    width: 400px;
+    margin-left: 55px;
+}
+
+.pa {
+    margin: 120px 60px;
+    font-size: 4em;
+}
+
+.s {
+    color: cornflowerblue;
+}
+
+.d {
+    color: coral;
+}
+
+header {
+    background: black;
+    height: 50px;
+    padding: 10px;
+    font-size: 35px;
+}
+
+.A {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.t {
+    color: cadetblue;
+}
+
+.about {
+    margin: 5px 0px;
+}
+
+.header {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 3rem;
+    background: black;
+}
+
+.ss {
+    color: orangered;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 300px;
+    width: 1700px;
+    gap: 20px;
+    flex-direction: row;
+}
+
+.Sk {
+    margin-right: 30px;
+    background: cornflowerblue;
+    width: 150px;
+    height: 200px;
+    gap: 30px;
+    transform: rotate(360deg);
+    align-content: center;
+    padding-left: 30px;
+    font-size: 2em;
+    transition: 1s;
+    animation: Sagar 3s infinite;
+    transition: 2s;
+}
+@keyframes Sagar {
+    0% 
+    {
+        color: blue;
+    }
+    25%
+    {
+        color: red;
+    }
+    50%
+    {
+       color: black;
+    }
+    75%
+    {
+        color: honeydew;
+    }
+    100%
+    {
+        color: palegoldenrod;
+    }
+
+}
+.A 
+{
+    display: flex;
+    gap: 1300px;
+}
+a
+{
+    text-decoration: none;
+    color: crimson;
+}

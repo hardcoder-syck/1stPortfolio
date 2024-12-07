@@ -1,0 +1,112 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Con
+{
+    margin: 0px -10px;
+    display: flex;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3em;
+    color: white;
+}
+header
+{
+    padding: 15px;
+    background: black;  
+}
+.C
+{
+    color: chocolate;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
+}
+.icon1
+{
+    height: 420px;
+    width: 520px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-linkedin
+{
+    color: blue;
+    font-size: 3rem;
+    background: black;
+}
+.fa-square-github
+{
+    color: white;
+    font-size: 3rem;
+    background: black;
+}
+.fa-x-twitter
+{
+    color: white;
+    font-size: 3rem;
+    background: black;
+}
+.fa-linkedin:hover
+{
+  font-size: 4rem;
+  transition: .5s; 
+}
+.fa-square-github:hover
+{
+    font-size: 4rem;
+    transition: .5s; 
+}
+.fa-x-twitter:hover
+{
+    font-size: 4rem;
+    transition: .5s; 
+}
+.Footer
+{
+    height: 300px;
+    background: black;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  
+}
+.footer1
+{
+    margin: 10px;
+    color: white;
+    font-size: 5rem;
+    animation: float 2s infinite;
+    transition: 1s;
+}
+@keyframes float{
+    0%
+    {
+        color: red;
+    }
+    25%
+    {
+        color: blue;
+    }
+    50%
+    {
+        color: orange;
+    }
+    75%
+    {
+        color: brown;
+    }
+    100%
+    {
+        color: cornflowerblue;
+    }   
+}
